@@ -1,0 +1,26 @@
+.ps-sidebar-container {
+  width: inherit;
+}
+
+.ps-menu-button {
+  margin: 5px 0;
+  height: 55px !important;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4f5b67 !important;
+}
+
+.ps-menu-button.ps-active {
+  border-right: solid 4px #4040f2;
+  color: #0d0d54 !important;
+  background-color: #f7f7fb;
+}
+
+.ps-menu-icon {
+  color: #4f5b67;
+  font-size: 1.5rem;
+}
+
+.ps-menu-icon.ps-active {
+  color: #6363f6;
+}

@@ -1,0 +1,19 @@
+.addProjectBtn {
+  background-color: #4040f2;
+  color: white;
+}
+
+.addProjectBtn:hover {
+  background-color: #0d0d54;
+  color: white;
+}
+
+.addBtn {
+  background-color: #4040f2;
+  color: white;
+}
+
+.addBtn:hover {
+  background-color: #0d0d54;
+  color: white;
+}

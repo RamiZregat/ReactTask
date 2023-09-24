@@ -1,0 +1,35 @@
+.statisticContainer {
+  border: 1px solid #efefef;
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 340px;
+  height: 170px;
+}
+
+.firstCPB .CircularProgressbar-path {
+  stroke: #44c13c;
+}
+
+.firstCPB .CircularProgressbar-trail {
+  stroke: #e6fbd9;
+}
+
+.secondCPB .CircularProgressbar-path {
+  stroke: #4040f2;
+}
+
+.secondCPB .CircularProgressbar-trail {
+  stroke: #d8d8fe;
+}
+
+.thirdCPB .CircularProgressbar-path {
+  stroke: #ff513a;
+}
+
+.thirdCPB .CircularProgressbar-trail {
+  stroke: #ffe8d7;
+}
+
+.YFCards {
+  min-width: 340px;
+}

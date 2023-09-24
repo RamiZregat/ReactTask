@@ -1,0 +1,42 @@
+.MuiPaper-root,
+.MuiTableRow-root.MuiTableRow-head {
+  box-shadow: none !important;
+  border-top: 1px solid #e0e0e0;
+  border-radius: 0 !important;
+}
+
+.MuiCheckbox-root svg {
+  color: #9ca3af !important;
+}
+
+.MuiButton-Primary {
+  justify-content: flex-start !important;
+}
+
+.MuiTableCell-head div {
+  text-transform: none !important;
+  color: #6b7280;
+  min-width: max-content;
+  font-weight: 600;
+}
+
+.MuiTableCell-head button {
+  padding-left: 0 !important;
+  width: 100%;
+}
+
+.MuiTableCell-root.MuiTableCell-head {
+  padding: 8px 16px;
+}
+
+.MuiTableCell-root.MuiTableCell-body {
+  padding: 16px;
+}
+
+.MuiTableCell-body div {
+  min-width: max-content;
+}
+
+.MuiFormControl-root.tss-9562fz-MUIDataTableViewCol-root {
+  padding: 15px;
+}
