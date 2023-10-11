@@ -9,13 +9,14 @@ export default function Projects() {
 
   return (
     <>
-      <div className="px-8 flex justify-between">
-        <h1 className="sectionTitle">Current projects</h1>
+      <div className="px-8 flex justify-between flex-col mobile:flex-row gap-8">
+        <h1 className="sectionTitle w-max">Current projects</h1>
         <button
           onClick={() => setShowAddModal(true)}
-          className="addProjectBtn rounded-full text-sm pb-1 px-4"
+          className="w-min addProjectBtn flex flex-row items-center gap-2 rounded-full text-sm pb-1 px-4"
         >
-          New project <span className="ml-1 text-lg">+</span>
+           <div className="w-max">New project</div>
+           <div className="ml-1 text-lg">+</div>
         </button>
       </div>
       <div className="mt-6 mb-12">

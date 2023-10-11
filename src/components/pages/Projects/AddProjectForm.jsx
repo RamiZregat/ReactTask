@@ -36,8 +36,8 @@ export default function AddProjectForm({ setShowAddModal }) {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="mb-6">
-        <div className="flex flex-row gap-20 py-4">
-          <div className="flex flex-col gap-2">
+        <div className="flex flex-col sm:flex-row sm:gap-20 gap-0  py-0">
+          <div className="flex flex-col gap-2 my-2">
             <label className="font-medium textColorSecondary">
               Project Name
             </label>
@@ -51,7 +51,7 @@ export default function AddProjectForm({ setShowAddModal }) {
               </span>
             )}
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 my-2">
             <label className="font-medium textColorSecondary">
               Project Status
             </label>
@@ -94,8 +94,8 @@ export default function AddProjectForm({ setShowAddModal }) {
             />
           </div>
         </div>
-        <div className="flex flex-row gap-20 py-4">
-          <div className="flex flex-col gap-2">
+        <div className="flex flex-col sm:flex-row sm:gap-20 gap-0  py-0">
+          <div className="flex flex-col gap-2 my-2">
             <label className="font-medium textColorSecondary">Brand</label>
             <Controller
               name="brand"
@@ -135,7 +135,7 @@ export default function AddProjectForm({ setShowAddModal }) {
               )}
             />
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 my-2">
             <label className="font-medium textColorSecondary">
               Contributors
             </label>
@@ -182,8 +182,8 @@ export default function AddProjectForm({ setShowAddModal }) {
             />
           </div>
         </div>
-        <div className="flex flex-row gap-20 py-4">
-          <div className="flex flex-col gap-2">
+        <div className="flex flex-col sm:flex-row sm:gap-20 gap-0  py-0">
+          <div className="flex flex-col gap-2 my-2">
             <label className="font-medium textColorSecondary">
               Project type
             </label>
@@ -225,7 +225,7 @@ export default function AddProjectForm({ setShowAddModal }) {
               )}
             />
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 my-2">
             <label className="font-medium textColorSecondary">Due date</label>
             <Controller
               name="dueDate"

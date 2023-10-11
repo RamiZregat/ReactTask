@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { MdOutlineTab } from "react-icons/md";
 import { FiClock } from "react-icons/fi";
-import { setActivePagePath } from "../redux/reducers/appReducer";
+import { setActivePagePath } from "../../../utilities/redux/reducers/appReducer";
 import { BsArrowBarLeft, BsArrowBarRight } from "react-icons/bs";
 import "./sidebar.css";
-import { toggleCollapse } from "../redux/reducers/appPersistReducer";
+import { toggleCollapse } from "../../../utilities/redux/reducers/appPersistReducer";
 
 export default function SideBar() {
   const dispatch = useDispatch();
@@ -40,7 +40,7 @@ export default function SideBar() {
       collapsed={collapsed}
       className="sidebar min-h-screen w-inherit"
     >
-      <div className="fixed w-inherit h-4/5">
+      <div className="fixed w-inherit h-full sidebarContainer">
         {collapsed ? (
           <>
             <h1 className="flex items-center justify-center mt-6 mb-12 font-bold text-md textColorPrimary">
@@ -52,7 +52,7 @@ export default function SideBar() {
             Investly <div className="textColorSecondary">.</div>
           </h1>
         )}
-        <div className="flex flex-col justify-between h-full">
+        <div className="flex flex-col justify-between h-4/5">
           <div className="my-8">
             <Menu>
               {menuItems.map((item) => (

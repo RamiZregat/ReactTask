@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import PageLayout from "../PageLayout";
+import PageLayout from "../../components/utilityComponents/PageLayout";
 
 export default function RoutesLogic({ publicRoutes }) {
   return (
