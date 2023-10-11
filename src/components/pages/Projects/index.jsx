@@ -15,8 +15,8 @@ export default function Projects() {
           onClick={() => setShowAddModal(true)}
           className="w-min addProjectBtn flex flex-row items-center gap-2 rounded-full text-sm pb-1 px-4"
         >
-           <div className="w-max">New project</div>
-           <div className="ml-1 text-lg">+</div>
+          <div className="w-max">New project</div>
+          <div className="ml-1 text-lg">+</div>
         </button>
       </div>
       <div className="mt-6 mb-12">

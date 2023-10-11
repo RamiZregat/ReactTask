@@ -3,9 +3,7 @@ import RoutesLogic from "./utilities/routesLogic";
 import Loading from "./components/utilityComponents/Loading";
 import Error404 from "./components/utilityComponents/Error404";
 import { useDispatch } from "react-redux";
-import {
-  closeCollapse,
-} from "./utilities/redux/reducers/appPersistReducer";
+import { closeCollapse } from "./utilities/redux/reducers/appPersistReducer";
 
 function App() {
   const dispatch = useDispatch();
